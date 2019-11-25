@@ -1,7 +1,7 @@
 ## Dependencies
 
-*   Install nodejs
-*   Install angular/cli 
+*   Install nodejs LTS  (https://nodejs.org/en/download/)
+*   Install angular/cli (open CMD/terminal and run  `npm install -g @angular/cli`)
 
 ## Development server
 
