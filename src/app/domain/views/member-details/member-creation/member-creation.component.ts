@@ -17,11 +17,11 @@ export class MemberCreationComponent implements OnInit {
 
   constructor(private fb: FormBuilder, private apiMemberDetailsService: ApiMemberDetailsService, private alertService: AlertService,
     private storeBussinessService: BussinessStoreService) {
-    setTimeout(() => {
-      this.getMemberGroupsNameList();
-    }, 1000);
-    this.getMemberGroupById();
-    this.getMemberById();
+    // setTimeout(() => {
+    //   this.getMemberGroupsNameList();
+    // }, 1000);
+    // this.getMemberGroupById();
+    // this.getMemberById();
   }
 
   ngOnInit() {

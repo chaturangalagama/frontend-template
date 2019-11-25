@@ -1,16 +1,13 @@
 ## Dependencies
 
-*   angular/cli (install angular/cli first)
-*  'angular/cli (install angular/cli first)''
+*   Install nodejs
+*   Install angular/cli 
 
 ## Development server
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+*   Clone the project `git clone https://github.com/chathuramadhusanka/frontend-template.git`
+*   From inside project folder `/frontend-template` open CMD/terminal 
+*   Run `npm install` to download libraries.
+*   Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. 
+*   Login with username - testjwtclientid2, password - XY7kmzoNzl100
 
-## Code scaffolding
-
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
-
-## Build
-
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `-prod` flag for a production build.

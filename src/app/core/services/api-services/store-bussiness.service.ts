@@ -9,7 +9,7 @@ export class BussinessStoreService {
 
   constructor(private apiMemberDetailsService: ApiMemberDetailsService, private alertService: AlertService
   ) {
-    this.getMemberGroupsList();
+    // this.getMemberGroupsList();
   }
 
   getMemberGroupsList() {
