@@ -18,10 +18,11 @@ export class AuthService {
   }
 
   login(user: UserLogin) {
-    const headers = new HttpHeaders({ 'Authorization': `Basic ${btoa(user.userName + ':' + user.password)}`, 'Content-Type': 'application/x-www-form-urlencoded' });
-    const oauth = 'username=john.doe'
-      + '&grant_type=password'
-      + '&password=123456';
+    // const headers = new HttpHeaders({ 'Authorization': `Basic ${btoa(user.userName + ':' + user.password)}`, 'Content-Type': 'application/x-www-form-urlencoded' });
+    const headers = new HttpHeaders({ 'Authorization': `Basic ${btoa('testjwtclientid2' + ':' + 'XY7kmzoNzl100')}`, 'Content-Type': 'application/x-www-form-urlencoded' });
+    const oauth = `username=${user.userName}`//john.doe
+      + `&grant_type=password`
+      + `&password=${user.password}`;//123456
     return this.http.post(
       `${this.API_LOGIN_URL}/oauth/token`, oauth, { headers: headers, observe: 'response' }
     );
